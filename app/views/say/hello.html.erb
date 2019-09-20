@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Hello From rails</title>
+</head>
+<body>
+<h2>Hello from rails.I am inside body</h2>
+<p>
+  It  is now <%= @time %>
+  <a href="/say/goodbye">Goodbye</a>
+</p>
+#link another page
+<p>
+<%= link_to "Click me" ,say_goodbye_path %>
+
+</p>
+<p>
+
+  Addition: <%= 2+3 %> <br/>
+  Full Name: <%= "ahsan" + "habib" %>
+
+</p>
+ <%@num = [10,3,6] %>
+<% (1..12).each do |x| %>
+  <%= x %>
+<% end %>
+
+
+</body>
+
+</html>
+
+
